@@ -1,0 +1,117 @@
+.checkout {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.checkout-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-left {
+  width: 60%;
+}
+
+.checkout-left-header {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.checkout-left-header_text {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.checkout-right {
+  width: 40%;
+  border: 1px solid #e1e1e1;
+  margin-left: 20px;
+  height: 100%;
+}
+
+.circle {
+  stroke-dasharray: 1194;
+  stroke-dashoffset: 1194;
+  animation: dc 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.tick {
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  animation: dt 0.8s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 0.95s;
+}
+@keyframes dc {
+  from {
+    stroke-dashoffset: 1194;
+  }
+  to {
+    stroke-dashoffset: 2388;
+  }
+}
+@keyframes dt {
+  from {
+    stroke-dashoffset: 350;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.checkout-block {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.info-payment {
+  font-size: 18px;
+}
+
+.info-payment-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mt-8 {
+  margin-top: 70px;
+}
+
+.checkout-btn {
+  margin-top: 30px;
+}
+
+.checkout-buys,
+.print-buys {
+  text-transform: none !important;
+  margin: 0 10px !important;
+}
+
+.checkout-buys {
+  font-size: 18px !important;
+  color: #fff !important;
+  background-color: #000 !important;
+  padding: 10px 20px 10px 20px !important;
+  border-radius: 8px !important;
+}
+
+.print-buys {
+  font-size: 18px !important;
+  color: #000 !important;
+  background-color: #fff !important;
+  padding: 10px 20px 10px 20px !important;
+  border-radius: 8px !important;
+  border: 1px solid #ccc !important;
+}
+
+.checkout-buys:hover,
+.print-buys:hover {
+  opacity: 0.8;
+}
+
+.print-buys-icon {
+  margin-right: 10px;
+}

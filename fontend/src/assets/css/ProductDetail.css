@@ -1,0 +1,166 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+:root {
+  --gold: #fde047;
+}
+
+/* Additional CSS rules for styling your React components */
+
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1;
+  }
+}
+
+.react-rater-star.is-active-half:before {
+  color: var(--gold) !important;
+}
+
+.react-rater-star.is-active {
+  color: var(--gold) !important;
+}
+
+.detail-header {
+  margin-top: 100px;
+}
+
+.price-pre {
+  font-size: 30px;
+  font-weight: 700;
+  color: #b18979;
+}
+
+.price-orinal {
+  font-size: 22px;
+  font-weight: 700;
+  color: #929292;
+  margin-left: 15px;
+  text-decoration: line-through;
+}
+
+.size-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.59px;
+  color: #232734;
+  margin-bottom: 13px;
+}
+
+.mr-5 {
+  margin: 0 5px 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 12%;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.btn-subtract {
+  padding: 0 12px;
+  display: flex;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.input-quantity {
+  border: none;
+  text-align: center;
+  width: 50px;
+}
+
+.btn-add-cart {
+  border: 1px solid #000;
+  background-color: transparent;
+  margin: 30px 30px 30px 0;
+  padding: 5px 20px;
+  font-size: 24px;
+  font-weight: 600;
+  height: 48px;
+}
+
+.btn-add-cart:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.cart-icon {
+  margin-right: 5px;
+}
+
+.btn-buy {
+  border: 1px solid #000;
+  background-color: transparent;
+  margin: 30px 30px 30px 0;
+  padding: 5px 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #000;
+  height: 48px;
+}
+
+.btn-buy:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.product-pro {
+  margin-bottom: 100px;
+}
+
+.product-pro-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.pro-dis-lists {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.pro-dis-list {
+  width: 480px;
+  height: 64px;
+  padding: 10px 18px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px 11px 10px;
+}
+
+.pro-dis-list-icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.pro-dis-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.pro-dis-img {
+  max-width: 380px;
+  max-height: 380px;
+  margin: 20px;
+}

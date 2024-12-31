@@ -1,0 +1,131 @@
+.product-main {
+  margin-top: 100px;
+}
+
+.product-main_head {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.product-main_left,
+.product-main_head-title {
+  width: 25%;
+}
+
+.head-title-btns {
+}
+
+.head-title-btn {
+  margin: 0 10px !important;
+  color: #fff !important;
+  background-color: #000 !important;
+  border-radius: 6px !important;
+}
+
+.product-main_body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product-main_left-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-main_left-filter {
+  cursor: pointer;
+}
+
+.category-childs,
+.filters-down {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-20px); /* Trượt lên trên khi ẩn */
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+.category-childs.show,
+.filters-down.show {
+  max-height: 100%; /* Chiều cao tối đa khi hiển thị */
+  opacity: 1;
+  transform: translateY(0); /* Trở về vị trí ban đầu khi hiển thị */
+}
+
+.product-main_left-filter {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.filter-block {
+  display: flex;
+  align-items: center;
+}
+
+.filter-block h3 {
+  margin-left: 10px;
+}
+
+.category-filters-block {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.category-filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.filter-title {
+  font-size: 20px;
+  margin-left: 5px !important;
+  margin-bottom: 0 !important;
+}
+
+.category-title {
+  font-size: 18px;
+}
+
+.category-child {
+  display: flex;
+  align-items: center;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+
+.category-child-add {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 5px !important;
+}
+
+.category-child-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product-right_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-right_head-title {
+  margin-left: 20px !important;
+}
