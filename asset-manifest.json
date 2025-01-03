@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dsenco/static/css/main.f7394920.css",
+    "main.js": "/dsenco/static/js/main.e670c20c.js",
+    "static/js/453.a4de8180.chunk.js": "/dsenco/static/js/453.a4de8180.chunk.js",
+    "static/media/banner.png": "/dsenco/static/media/banner.64645ce059fe8a2e99f4.png",
+    "static/media/success.png": "/dsenco/static/media/success.2feef08f985e44e44af2.png",
+    "static/media/1.png": "/dsenco/static/media/1.bb86db5ecd1c9af6bbf3.png",
+    "index.html": "/dsenco/index.html",
+    "main.f7394920.css.map": "/dsenco/static/css/main.f7394920.css.map",
+    "main.e670c20c.js.map": "/dsenco/static/js/main.e670c20c.js.map",
+    "453.a4de8180.chunk.js.map": "/dsenco/static/js/453.a4de8180.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7394920.css",
+    "static/js/main.e670c20c.js"
+  ]
+}
